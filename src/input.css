@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.feature-item {
+    cursor: pointer;
+}
+
+.active {
+    @apply underline underline-offset-4 decoration-4 decoration-red-500;
+}
